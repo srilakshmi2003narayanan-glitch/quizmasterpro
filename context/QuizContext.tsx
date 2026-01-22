@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState } from 'react';
-import { Question, QuizSession, GameStatus, QuizSettings } from '../types';
+import { Question, QuizSession, GameStatus, QuizSettings } from '../types.ts';
 
 interface QuizContextType {
   status: GameStatus;

@@ -1,7 +1,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { User } from '../types';
-import { mockBackend } from '../services/mockBackend';
+import { User } from '../types.ts';
+import { mockBackend } from '../services/mockBackend.ts';
 
 interface AuthContextType {
   user: User | null;

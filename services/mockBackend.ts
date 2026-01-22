@@ -1,5 +1,5 @@
 
-import { User, LeaderboardEntry } from '../types';
+import { User, LeaderboardEntry } from '../types.ts';
 
 const USERS_KEY = 'quizmaster_users';
 const CURRENT_USER_KEY = 'quizmaster_current_user';

@@ -1,14 +1,14 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
-import { QuizProvider } from './context/QuizContext';
-import Navbar from './components/Navbar';
-import LandingPage from './pages/LandingPage';
-import QuizSetup from './pages/QuizSetup';
-import GameView from './pages/GameView';
-import Leaderboard from './pages/Leaderboard';
-import ResultPage from './pages/ResultPage';
+import { AuthProvider, useAuth } from './context/AuthContext.tsx';
+import { QuizProvider } from './context/QuizContext.tsx';
+import Navbar from './components/Navbar.tsx';
+import LandingPage from './pages/LandingPage.tsx';
+import QuizSetup from './pages/QuizSetup.tsx';
+import GameView from './pages/GameView.tsx';
+import Leaderboard from './pages/Leaderboard.tsx';
+import ResultPage from './pages/ResultPage.tsx';
 
 // Explicitly type ProtectedRoute to ensure children are recognized as required props in TSX.
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {

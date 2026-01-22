@@ -1,8 +1,8 @@
 
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useQuiz } from '../context/QuizContext';
-import { useAuth } from '../context/AuthContext';
+import { useQuiz } from '../context/QuizContext.tsx';
+import { useAuth } from '../context/AuthContext.tsx';
 import { Trophy, ArrowRight, RotateCcw, Target, Timer, Star, TrendingUp } from 'lucide-react';
 
 const ResultPage: React.FC = () => {

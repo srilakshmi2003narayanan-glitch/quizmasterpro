@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { Question, Difficulty } from "../types";
+import { Question, Difficulty } from "../types.ts";
 
 // Always use the process.env.API_KEY directly in the constructor as per guidelines.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });

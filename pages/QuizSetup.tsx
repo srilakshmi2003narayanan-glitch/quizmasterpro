@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CATEGORIES, DIFFICULTIES } from '../constants';
-import { Difficulty } from '../types';
-import { useQuiz } from '../context/QuizContext';
-import { generateQuizQuestions } from '../services/geminiService';
+import { CATEGORIES, DIFFICULTIES } from '../constants.ts';
+import { Difficulty } from '../types.ts';
+import { useQuiz } from '../context/QuizContext.tsx';
+import { generateQuizQuestions } from '../services/geminiService.ts';
 import { ArrowRight, Loader2, Sparkles, Check } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 

@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { mockBackend } from '../services/mockBackend';
-import { useAuth } from '../context/AuthContext';
+import { mockBackend } from '../services/mockBackend.ts';
+import { useAuth } from '../context/AuthContext.tsx';
 import { Crown, Star, User as UserIcon, Medal, TrendingUp, Trophy } from 'lucide-react';
 
 const Leaderboard: React.FC = () => {

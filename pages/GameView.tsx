@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useQuiz } from '../context/QuizContext';
-import { GameStatus } from '../types';
+import { useQuiz } from '../context/QuizContext.tsx';
+import { GameStatus } from '../types.ts';
 import { Timer, Trophy, ArrowRight, CheckCircle2, XCircle, Zap } from 'lucide-react';
 
 const GameView: React.FC = () => {
