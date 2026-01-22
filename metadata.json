@@ -1,0 +1,8 @@
+{
+  "name": "QuizMaster Pro",
+  "description": "A modern, high-performance interactive quiz game featuring real-time scoring, level progression, and Gemini-powered question generation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
